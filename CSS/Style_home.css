@@ -1,0 +1,253 @@
+/* Start Glabal Styles */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&family=Xanh+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* End Global Styles */
+
+/* Start Header Section */
+
+.header {
+    width: 100%;
+    background-color: #FFF;
+    height: 70px;
+    overflow: hidden;
+}
+
+.header h1 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 100px;
+    font-family: Lobster,sans-serif;
+    font-size: 35px;
+}
+
+.header h1 a{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+.header ul {
+    padding-left:25% ;
+    padding-right: 25%;
+}
+
+.header ul li {
+    float: left;
+    list-style: none;
+    padding-top: 25px;
+    
+}
+
+
+.header ul li a {
+    color: #333;
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.header ul li a.active {
+    background-color: #062236;
+    height: 70px;
+    color: #FFF;
+    padding: 35px 10px; 
+}
+
+.header ul li a:hover {
+    background-color: #062236;
+    height: 70px;
+    color: #FFF;
+    padding: 35px 10px; 
+}
+
+ .fa {
+    float: left;
+    margin-top: 25px;
+    margin-left: 125px;  
+}
+
+.in-search {
+    margin-top: 25px;
+    margin-left: 10px;  
+    border: none;
+    background-color: #EEE;
+}
+
+
+/* End Header Section */
+
+/* Start Body Section */
+
+.body-sec {
+    background-image: url('https://i.ibb.co/CWy0qyH/slider01.jpg?fbclid=IwAR1piB5ePQYN1bzRITLO1d6fcQ8F3Jf5wR-eeMMmqbD_Mf6pUuwbLSlZYp8');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.body-content h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    font-size: 80px;
+    margin-top: 200px;
+    font-family: 'Patua One', cursive,sans-serif;
+    
+
+    
+}
+
+.body-content p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:230px;
+    width: 1200px;
+    color: rgb(209, 203, 203);
+    line-height: 1.5em;
+    /* font-weight: bold; */
+    text-align: center;
+    
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 30px;
+    background-color: #00b33c;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #062236;
+    color: #fff;
+    
+}
+
+/* End Body Section */
+
+/* Start Message Section */
+
+.message-sec {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+    line-height: 1.5em;
+    height: 100px;
+
+}
+
+.message-sec h1 {
+    margin-bottom: 20px;
+}
+
+.message-sec p {
+    max-width: 700px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+
+
+/* End Message Section */
+
+/* Start Goals Section */
+
+.goals {
+    color: #333;
+    padding: 50px;
+    margin-left: 60px;
+    line-height: 1.5em;
+    height: 300px;
+    
+}
+
+
+
+.passion {
+    float: left;
+    max-width: 33.33%;
+    padding:10px 60px;
+
+}
+
+.passion h2,
+.creativity h2,
+.quality h2 {
+    margin-left: 10px;
+    float: left;
+}
+
+.creativity {
+    float: right;
+    max-width: 33.33%;
+    padding:10px 60px;
+
+
+}
+
+.quality {
+    float: right;
+    max-width: 33.33%;
+    padding:10px 60px;
+
+
+}
+
+.fa-heart,
+.fa-lightbulb,
+.fa-star
+{
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+/* End Goals Section */
+
+/* Start Footer Section */
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #062236;
+    height: 70px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer p {
+    color: #EEE;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+
+
+
+/* End Footer Section */
+
